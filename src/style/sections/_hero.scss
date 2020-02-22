@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   position: fixed;
@@ -17,10 +17,14 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  /* background: url("/src/assets/[your-image].png");
+  // background: url('/src/assets/backdrop.jpg');
+  // background-position: center;
+  // background-size: cover;
+  background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('/src/assets/backdrop.jpg');
   background-position: center;
-  background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover; 
+  // background-attachment: scroll;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
