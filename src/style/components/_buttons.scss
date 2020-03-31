@@ -28,7 +28,8 @@
       $secondary-color 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px solid transparent;
+  background-clip: text;
+  border: 2px solid;
   border-image: linear-gradient(135deg,
       $primary-color 0%,
       $secondary-color 100%);
