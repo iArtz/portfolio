@@ -20,10 +20,15 @@
   // background: url('/src/assets/backdrop.jpg');
   // background-position: center;
   // background-size: cover;
-  background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('/src/assets/backdrop.jpg');
+  background: linear-gradient(
+      to bottom,
+      #{fade-out($brown, 0.2)} 0%,
+      #{fade-out($brown, 0.2)} 100%
+    ),
+    url('/assets/backdrop.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
   // background-attachment: scroll;
 
   @include respond(phone) {

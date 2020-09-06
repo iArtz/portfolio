@@ -1,8 +1,10 @@
 {
-  "name": "iartz.io",
+  "name": "portfolio.iartz.io",
   "version": "1.0.0",
-  "description": "A clean, beautiful and responsive portfolio for Developers!",
+  "description": "A clean and responsive portfolio",
   "main": "index.js",
+  "author": "Kanitphong Sakonsinsiri",
+  "homepage": "https://portfolio.iartz.io",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open",
@@ -12,12 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iArtz/iartz.io.git"
+    "url": "git+https://github.com/iArtz/portfolio.git"
   },
   "keywords": [],
-  "author": "Jacobo Martinez",
   "license": "ISC",
-  "homepage": "https://portfolio.iartz.io",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.1",
