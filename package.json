@@ -1,7 +1,7 @@
 {
   "name": "iartz.io",
   "version": "1.0.0",
-  "description": "A clean, beautiful and responsive portfolio for Developers!",
+  "description": "A clean and responsive portfolio",
   "main": "index.js",
   "private": true,
   "scripts": {
